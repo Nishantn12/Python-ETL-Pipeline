@@ -46,7 +46,7 @@ Here is what the script actually does to the data:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/job-etl-pipeline.git](https://github.com/your-username/job-etl-pipeline.git)
+    git clone [https://github.com/Nishantn12/Python-ETL-Pipeline.git](https://github.com/Nishantn12/Python-ETL-Pipeline.git)
     ```
 
 2.  **Install required libraries:**
@@ -54,15 +54,12 @@ Here is what the script actually does to the data:
     pip install pandas requests
     ```
 
-3.  **Run the script:**
-    ```bash
-    python main.py
-    ```
+3.  **Run the project:**
+    * Open the file `Job_Market_ETL_Walkthrough.ipynb` in Jupyter Notebook or Google Colab.
+    * Click **"Run All"** to execute the pipeline.
 
 4.  **Check the output:**
-    The script will print a preview of the clean data and create a file named `linkedin_jobs.db`.
-
----
+    The script will print a preview of the clean data and create a database file named `linkedin_jobs.db`.
 
 ## 📈 Future Improvements
 * Connect to a live Visualization tool (PowerBI/Tableau).
