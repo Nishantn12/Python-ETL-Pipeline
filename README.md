@@ -1,4 +1,3 @@
-
 # 🧹 Automated Job Market ETL Pipeline
 
 **"Because cleaning data manually is boring."**
@@ -61,12 +60,14 @@ Here is what the script actually does to the data:
 4.  **Check the output:**
     The script will print a preview of the clean data and create a database file named `linkedin_jobs.db`.
 
+---
+
 ## 📈 Future Improvements
+
 * Connect to a live Visualization tool (PowerBI/Tableau).
 * Automate the script to run daily using Airflow or Cron.
 * Add email alerts if data extraction fails.
 
 ---
 
-*Created by Nishant Tomar
-
+*Created by Nishant Tomar*
